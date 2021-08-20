@@ -1,0 +1,21 @@
+{
+  "name": "face_recognition_with_node_and_aws",
+  "version": "1.0.0",
+  "description": "doing face recognition with AWS Rekognition and NodeJs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Faraz Khan",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.968.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
